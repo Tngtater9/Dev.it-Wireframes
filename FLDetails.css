@@ -1,0 +1,51 @@
+body {
+	margin: auto;
+	text-align: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 30%;
+	text-align: left;
+}
+
+button {
+	width: max-content;
+	align-self: flex-end;
+	font-size: 1rem;
+	border-radius: 15px;
+	padding: 0.625em;
+	margin: 0 1em;
+}
+
+.picture {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+article {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+span {
+	align-self: flex-start;
+	margin: 0 1em;
+}
+
+.add-skill {
+	align-self: flex-start;
+	margin: 1em;
+}
