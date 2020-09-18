@@ -1,0 +1,77 @@
+body {
+	margin: auto;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	height: 20vh;
+	background-color: #a0a0a0;
+}
+
+header > h1 {
+	font-size: 5rem;
+}
+
+.picture {
+	margin: 1em;
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+button {
+	width: max-content;
+	align-self: center;
+	font-size: 1rem;
+	border-radius: 15px;
+	padding: 0.625em;
+}
+
+.summary {
+	height: max-content;
+	width: 50%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: max-content max-content;
+}
+
+.summary > div {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.summary > p {
+	align-self: center;
+	justify-self: end;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.summary > button {
+	align-self: center;
+	justify-self: end;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.placeholder {
+	height: 150px;
+	width: 50%;
+	background-color: #a0a0a0;
+	margin: auto;
+}

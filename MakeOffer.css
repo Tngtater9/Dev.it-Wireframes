@@ -1,0 +1,62 @@
+body {
+	margin: auto;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	height: 20vh;
+	background-color: #a0a0a0;
+}
+
+header > h1 {
+	font-size: 5rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	text-align: left;
+	width: 300px;
+}
+
+.pay-rate {
+	display: flex;
+}
+
+.amount {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	margin: 1em;
+}
+
+button {
+	width: max-content;
+	align-self: flex-end;
+	font-size: 1rem;
+	border-radius: 15px;
+	padding: 0.625em;
+	margin: 1em;
+}
+
+h2 {
+	text-align: left;
+}
+
+.picture {
+	margin: 1em;
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}

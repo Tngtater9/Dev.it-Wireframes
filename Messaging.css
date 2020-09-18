@@ -1,0 +1,58 @@
+body {
+	margin: auto;
+	text-align: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100vw;
+	height: 20vh;
+	background-color: #a0a0a0;
+}
+
+header > h1 {
+	font-size: 5rem;
+}
+
+.picture {
+	margin: 1em;
+	background-color: antiquewhite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+}
+
+button {
+	width: max-content;
+	height: 93.3333px;
+	align-self: center;
+	font-size: 1rem;
+	border-radius: 15px;
+	padding: 0.625em;
+}
+
+.send {
+	display: flex;
+	width: 100;
+}
+
+textarea {
+	width: 100%;
+}
+
+.message {
+	display: flex;
+	margin: 1em;
+}
+
+.placeholder {
+	height: 150px;
+	width: 50%;
+	background-color: #a0a0a0;
+	margin: auto;
+}
